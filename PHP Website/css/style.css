@@ -1,0 +1,146 @@
+:root {
+    --primaria: #FF8A3D;
+}
+
+header img {
+    height: 40px;
+}
+
+header {
+    background-color: var(--primaria);
+}
+
+header h1 {
+    color: white;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+.btn {
+    background-color: var(--primaria);
+    color: white;
+    border: 1px solid white;
+}
+
+ .btn:hover {
+    background-color: white;
+    color: var(--primaria);
+    border: 1px solid var(--primaria);
+}
+
+nav .form-control {
+    border-color: white;
+    outline: 5px;
+    /* box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);*/
+}
+
+.dropdown-item:active {
+    background-color: #ff8b3d8a;
+}
+
+.dropdown-item:hover {
+    background-color: #ff8b3d8a !important;
+}
+
+#mvv h5 {
+    text-align: justify;
+    text-indent: 35px;
+    color: white;
+}
+
+#mvvh1 h1 {
+    margin-bottom: 45px;
+    color: white;
+}
+
+#modbtn {
+    position: fixed;
+    right: 0;
+    bottom: 30%;
+}
+
+footer {
+    background-color: var(--primaria);
+    color: white;
+    min-height: 100px;
+    max-height: 110px;
+    padding-top: 10px;
+    margin-top: 30px;
+    clear: both;
+}
+
+#modbtn {
+    color: var(--primaria);
+    background-color: white;
+}
+
+#modbtncontact {
+    color: var(--primaria);
+    background-color: white;
+}
+
+#modbtncontact:hover {
+    color: white !important;
+    background-color: var(--primaria)!important;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: var(--primaria);
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 30%;
+}
+
+#modbtn:hover {
+    color: white !important;
+    background-color: var(--primaria)!important;
+}
+
+#content {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 115px;
+    clear: both;
+}
+
+/*------scroll bar---------------------*/
+  
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #9e501c;
+    border: 0px none #ffffff;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #743912;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #743912;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
